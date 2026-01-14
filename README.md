@@ -1,4 +1,7 @@
 # Deepfake Video Detection using Deep Learning
+## 🏗️ Model Architecture
+
+![Overall Model Architecture](assets/model_architecture.png)
 
 ## 📌 Overview
 This project focuses on detecting deepfake videos using a hierarchical deep learning approach that combines **spatial**, **frequency-domain**, and **temporal** features. With the rapid advancement of generative models, deepfake content has become increasingly realistic, posing serious risks related to misinformation, privacy, and digital trust.
