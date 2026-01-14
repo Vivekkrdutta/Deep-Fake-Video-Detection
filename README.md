@@ -58,6 +58,9 @@ The model follows a **multi-level hierarchical structure**:
 ---
 
 ### 3️⃣ Window-Level Temporal Modeling
+
+![Overall Model Architecture](Images/Screenshot2026-01-14_121847.png)
+
 - Frame-level embeddings from both branches are passed into **LSTMs**
 - Produces a single embedding per window, capturing short-term temporal inconsistencies
 
