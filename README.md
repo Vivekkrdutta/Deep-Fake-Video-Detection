@@ -59,7 +59,7 @@ The model follows a **multi-level hierarchical structure**:
 
 ### 3️⃣ Window-Level Temporal Modeling
 
-![Overall Model Architecture](Images/Screenshot2026-01-14_121847.png)
+![Overall Model Architecture](Images/Screenshot_2026-01-14_122023.png)
 
 - Frame-level embeddings from both branches are passed into **LSTMs**
 - Produces a single embedding per window, capturing short-term temporal inconsistencies
@@ -67,6 +67,9 @@ The model follows a **multi-level hierarchical structure**:
 ---
 
 ### 4️⃣ Video-Level Aggregation
+
+![Overall Model Architecture](Images/Screenshot_2026-01-14_122051.png)
+
 - Window embeddings are fused
 - A second LSTM aggregates information across the entire video
 - Generates a compact **video-level embedding**
